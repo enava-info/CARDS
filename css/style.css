@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.descuentos{
+    background-color:#1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+    border: solid 2px black;
+}
+
+h1{
+    background-color: #00669F;
+    font-size: 48px;
+    padding: 28px;
+    font-weight: 450;
+    margin: 0;
+}
+
+main{
+    padding: 120px 22px;
+}
+
+.tarjetas{
+    display: inline;
+}
+
+.unatarjeta{
+    width: 300px;
+    background-color:#F3E3E1;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: inline-block;
+    height: 530px;
+
+}
+
+.t-cabeza{
+    position: relative;
+    height: 193px;
+}
+
+.img-bg{
+    height: 193px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 300px;
+
+}
+.img-cora{
+    position: absolute;
+    top: 16px;
+    left: 21px;
+}
+
+.img-perfil{
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    border-radius: 50%;
+
+}
+.t-cuerpo{
+    text-align: center;
+    padding: 50px 16px 18px 16px;
+}
+.t-cuerpo h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.t-cuerpo p{
+    text-align: left;
+    margin: 0;
+}
+
+.t-cuerpo a{
+    background-color: #00669F;
+    color: #F3E3E1;
+    display: inline-block;
+    padding: 15px 37px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+footer{
+    background-color: #00669F;
+    padding: 16px 32px;
+    color: white;
+}
